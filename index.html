@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Memória Viva</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<header class="hero" id="inicio">
+    <!-- FOTO DO BANNER -->
+    <img src="Bauru.webp" alt="Bauru">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>BAURU</h1>
+        <p>
+            Descubra a história, os principais pontos turísticos e as
+            curiosidades da cidade sem limites.
+        </p>
+    </div>
+</header>
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+    </div>
+    <input type="text" placeholder="Pesquisar...">
+</div>
+<!-- MENU -->
+<div class="menu-bar">
+    <a href="#inicio">Início</a>
+    <a href="#historia">História</a>
+    <a href="#estacao">Estação Ferroviária</a>
+    <a href="#turismo">Pontos Turísticos</a>
+    <a href="#curiosidades">Curiosidades</a>
+</div>
+<!-- BANNER -->
+<div class="banner">
+    <div class="slides" id="slides">
+        <div class="slide">
+            <a href="timeline.html">
+                <!-- COLOQUE SUA FOTO AQUI -->
+                <img src="FT BAURU.png" alt="Bauru">
+                <div class="banner-texto">
+                    <h1>BAURU</h1>
+                    <p>
+                        Conheça a história, os pontos turísticos e as curiosidades
+                        da cidade sem limites.
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="slide">
+            <img src="imagem7.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="imagem8.png" alt="">
+        </div>
+    </div>
+    <button class="prev" onclick="voltar()">❮</button>
+    <button class="next" onclick="avancar()">❯</button>
+</div>
+<!-- HISTÓRIA -->
+<div class="historia" id="historia">
+    <h2>História de Bauru</h2>
+    <p>
+        A cidade de Bauru, localizada no interior do estado de São Paulo, possui uma história marcada pelo desenvolvimento ferroviário e pela expansão urbana.
+    </p>
+    <p>
+        O crescimento da cidade foi impulsionado pela chegada das ferrovias no início do século XX, tornando-se um importante centro regional.
+    </p>
+    <p>
+        Além disso, Bauru é conhecida nacionalmente pelo famoso sanduíche que leva seu nome.
+    </p>
+</div>
+<!-- ESTAÇÃO FERROVIÁRIA -->
+<div style="width: 100%; max-width: 1200px; margin: 0 auto;">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7826490138154!2d-49.08147152394996!3d-22.32405841730661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67f005995f23%3A0xe5ba4609c9c38905!2zRXN0YcOnw6NvIEZlcnJvdmnDoXJpYSBCYXVydSAtIFNQ!5e0!3m2!1spt-BR!2sbr!4v1786479410506!5m2!1spt-BR!2sbr"
+        width="100%"
+        height="450"
+        style="border:0; display:block;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+</div>
+<!-- PESSOAS FAMOSAS -->
+<div class="famosos" id="famosos">
+    <h2>Pessoas Famosas de Bauru</h2>
+    <div class="cards-famosos">
+        <div class="card">
+            <img src="pelé.jpg" alt="Pelé">
+            <h3>Pelé</h3>
+            <p>O rei do futebol brasileiro nasceu na cidade de Três Corações-MG mas, com apenas 4 anos, se mudou para Bauru. Aqui, jogou em times infanto-juvenis como Canto do Rio, Ameriquinha e Baquinhos. Além disso, o time bauruense, Sete de Setembro, foi montado pelo pai de Pelé. </p>
+        </div>
+        <div class="card">
+            <img src="rodrigo_santoro.jpg" alt="Rodrigo Santoro">
+            <h3>Rodrigo Santoro</h3>
+            <p>Ator brasileiro reconhecido internacionalmente por filmes e séries de grande sucesso.</p>
+        </div>
+        <div class="card">
+            <img src="marcos pontes.jpg" alt="Marcos Pontes" alt="Marcos Pontes">
+            <h3>Marcos Pontes</h3>
+            <p>Primeiro astronauta brasileiro e um dos grandes nomes da ciência nacional.</p>
+        </div>
+        <div class="card">
+            <img src="gustavo_lima.jpg" alt="Gustavo Lima">
+            <h3>Gustavo Lima</h3>
+            <p>Cantor sertanejo que realizou parte de sua formação artística na região.</p>
+        </div>
+        <div class="card">
+            <img src="Ozires1.jpg" alt="Ozires">
+            <h3>Ozires Silva</h3>
+            <p>Fundador da Embraer – Empresa Brasileira de Aeronáutica S.A, Ozires Silva é bauruense e foi na cidade que sua paixão por aviões começou. Mais especificamente no aeroclube de Bauru.</p>
+        </div>
+    </div>
+</div>
+<!-- PONTOS TURÍSTICOS -->
+<div id="turismo" class="turismo">
+    <h2>Pontos Turísticos de Bauru</h2>
+    <div class="cards-turismo">
+        <div class="card">
+            <img src="zoo.webp" alt="Zoológico de Bauru">
+            <h3>Zoológico Municipal</h3>
+            <p>Um dos maiores zoológicos do Brasil, com centenas de espécies e referência em conservação ambiental.</p>
+        </div>
+        <div class="card">
+            <img src="jardim.jpg" alt="Jardim Botânico">
+            <h3>Jardim Botânico</h3>
+            <p>Área verde com trilhas, lago e diversas espécies da flora brasileira, ideal para caminhadas e lazer.</p>
+        </div>
+        <div class="card">
+            <img src="Parque.jpg" alt="Parque Vitória Régia">
+            <h3>Parque Vitória Régia</h3>
+            <p>Principal parque urbano da cidade, utilizado para eventos, esportes e passeios ao ar livre.</p>
+        </div>
+        <div class="card">
+            <img src="estação.webp" alt="Estação Ferroviária">
+            <h3>Estação Ferroviária</h3>
+            <p>Marco histórico que simboliza o crescimento de Bauru graças às ferrovias no início do século XX.</p>
+        </div>
+        <div class="card">
+            <img src="sesc.jpg" alt="SESC Bauru">
+            <h3>SESC Bauru</h3>
+            <p>Espaço dedicado à cultura, esporte, lazer e apresentações artísticas durante todo o ano.</p>
+        </div>
+    </div>
+</div>
+<script>
+let index = 0;
+const slides = document.getElementById("slides");
+const total = slides.children.length;
+function atualizar(){
+    slides.style.transform = `translateX(-${index * 100}%)`;
+}
+function avancar(){
+    index = (index + 1) % total;
+    atualizar();
+}
+function voltar(){
+    index = (index - 1 + total) % total;
+    atualizar();
+}
