@@ -1,4 +1,4 @@
- body{
+body{
     margin:0;
     font-family:Arial,Helvetica,sans-serif;
     background:#ffe26259;
@@ -179,5 +179,20 @@ html{scroll-behavior:smooth;}
 .card p{
     margin:0 15px 20px;
     text-align:justify;
+}
 
+.botao-historia{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#fff;
+    color:#000;
+    text-decoration:none;
+    border:3px solid #000;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+.botao-historia:hover{
+    background:#eee;
 }
